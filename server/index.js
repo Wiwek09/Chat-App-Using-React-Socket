@@ -1,5 +1,5 @@
-const express = require("express") //Creating server
-const app = express() //app variable instance of expresss librabry
+const express = require("express") 
+const app = express() 
 const cors = require('cors')
 
 app.use(cors())
