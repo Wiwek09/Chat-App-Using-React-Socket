@@ -11,7 +11,7 @@ const server = http.createServer(app)
 
 const io = new Server(server,{
     cors:{
-        origin:"http://localhost:3000",
+        origin:"https://chat-app-using-react-socket.vercel.app/",
         methods:["GET","POST"]
     }
 })
@@ -34,7 +34,7 @@ io.on("connection", (socket) =>{
 });
 
 
-server.listen(5000, () =>
+server.listen('https://chat-app-using-react-socket-jugt.vercel.app/', () =>
     console.log("Server is Running")
     
 )
