@@ -34,7 +34,7 @@ io.on("connection", (socket) =>{
 });
 
 
-server.listen('https://chat-app-using-react-socket-jugt.vercel.app/', () =>
+server.listen(8000,'https://chat-app-using-react-socket-jugt.vercel.app/', () =>
     console.log("Server is Running")
     
 )
